@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt" suppressHydrationWarning>
-      <body suppressHydrationWarning>
+    <html lang="pt-BR">
+      <body>
         <AuthProvider>
           <Header />
           <main className="max-w-7xl mx-auto">{children}</main>
